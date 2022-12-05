@@ -13,6 +13,7 @@ body {
 
 .main-header {
     background-color: #0c73fe;
+
 }
 
 .main-header-img img{
@@ -35,7 +36,7 @@ body {
 }
 
 .main-img img {
-    max-width: 100%;
+    min-width: 100%;
 }
 
 .text-field__group {
@@ -248,7 +249,7 @@ i{
 
 footer{
     position: relative;
-    width: 100%;
+    width: 95%;
     padding: 20px 50px;
     background: #3586ff;
     display: flex;
@@ -295,3 +296,27 @@ footer p {
     margin-top: 15px;
     font-size: 1.1em;
 }    
+
+.services {
+    display: inline-block;
+    justify-content: center;
+    text-align: left;
+}
+
+.comment-order {
+    justify-content: center;
+}
+
+.comment textarea{
+    height: 200px;
+    width: 400px;
+}
+
+.comment-email {
+    display: inline-block;
+}
+
+.number {
+    font-size: 14px;
+    color: #fff;
+}

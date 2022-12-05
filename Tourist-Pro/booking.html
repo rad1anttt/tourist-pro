@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tourist-Pro</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="home" class="main-header">
+        <div class="main-header-img">
+            <img src="img/logo.png" alt="Новости культуры">
+        </div>
+            <ul class="site-navigation">
+                <li class="site-navigation-item">
+                    <a href="/index.html">Главная</a>
+                </li>
+                <li class="site-navigation-item">
+                    <a href="/search.html">Поиск маршрутов</a>
+                </li>
+                <li class="site-navigation-item">
+                    <a href="/seat.html">Выбор зон</a>
+                </li>
+                <li class="site-navigation-item">
+                    <a href="/booking.html">Бронирование</a>
+                </li>
+            </ul>
+            <div class="text-field">
+                <label class="text-field__label" for="search">Найти</label>
+                <div class="text-field__group">
+                  <input class="text-field__input" type="search" id="search" name="search">
+                  <button class="text-field__btn" type="button">Найти</button>
+                </div>
+            </div>
+    </div>
+    </div>
+    
+    <div class="main-img">
+        <img src="https://hdfon.ru/wp-content/uploads/hdfon.ru-72899400.jpg" alt="">
+        <div class="motto">Наш девиз: Только по Вашим правилам</div>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class='title'>Поиск</h2>
+        <div class="form-find">
+            <ul class="list-find">
+                <li class="list-find-item">
+                    <span>Регион:</span>
+                    <select class="find select">
+                        <option value="1">Турция</option>
+                        <option value="2">Шри-Ланка</option>
+                        <option value="3">ОАЭ</option>
+                        <option value="4">Мальдивы</option>
+                        <option value="5">Египет</option>
+                        <option value="6">Кипр</option>
+                        <option value="7">Россия</option>
+                    </select>
+                </li>
+                <li class="list-find-item">Название маршрута:
+                    <select class="select">
+                        <option value="1">Анталия</option>
+                        <option value="2">Пляж Хирикетия</option>
+                        <option value="3">Абу-Даби</option>
+                        <option value="4">Атолл Лавиани</option>
+                        <option value="5">Хургада</option>
+                        <option value="6">Айя-Напа</option>
+                        <option value="7">Анапа</option>
+                    </select>
+                </li>
+                <li class="list-find-item">
+                    <label>Введите дату: <input type="date" class="find data"></label>
+                </li>
+                <li class="list-find-item">
+                    <label>Количество человек: <input type="text" value="0" class="find value"></label>
+                </li>
+                <li class="list-find-item">Стоимость:
+                    <select class="select">
+                        <option value="1">Анталия — 10000 руб.</option>
+                        <option value="2">Пляж Хирикетия — 15000 руб.</option>
+                        <option value="3">Абу-Даби — 15000 руб.</option>
+                        <option value="4">Атолл Лавиани — 20000 руб.</option>
+                        <option value="5">Хургада — 17000 руб.</option>
+                        <option value="6">Айя-Напа — 23000 руб.</option>
+                        <option value="7">Анапа — 13000 руб.</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class='title'>Выберите дополнительные услуги</h2>
+        <div class="services">
+            <ul class="additional">
+                <li class="additional-services">
+                    <label class="services">
+                        <input type="checkbox" value="value-1">
+                        <span>Услуги проводника</span>
+                        <br><input type="checkbox" value="value-1">
+                        <span>Услуги аренды туристического оборудования</span>
+                        <br><input type="checkbox" value="value-1">
+                        <span>Услуги фотографа/видеооператора</span>
+                        <br><input type="checkbox" value="value-1">
+                        <span>Страхование от несчастных случаев</span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="title">Комментарий к заказу</h2>
+        <div class="comment">
+            <ul class="comment-order">
+                <li>
+                    <textarea></textarea>
+                </li>
+            </ul>
+        </div>
+        <div class="comment-email">
+            <ul class="email-adress">
+                <li>
+                    <h2>Ваш Email: </h2>
+                </li>
+            </ul>
+        </div>
+        <input type="text">
+        <h2 class="title">Итоговая стоимость: 32000 руб.</h2>
+        <button class="button button-find">Найти билеты</button>
+    </div>
+    <footer>
+        <ul class="social">
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+        <div class="number">
+            <h2 class="title">Телефон: 8 (800) 555-33-10</h2>
+        </div>
+        
+        <ul class="menu">
+            <li><a href="/index.html">Главная</a></li>
+            <li><a href="/search.html">Поиск маршрутов</a></li>
+            <li><a href="/seat.html">Выбор зон</a></li>
+            <li><a href="/booking.html">Бронирование</a></li>
+        </ul>
+        <p>©2022 Tourist-Pro | Все права защищены</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
